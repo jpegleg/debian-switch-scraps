@@ -1,0 +1,2 @@
+brctl addbr BRIDGE
+brctl addif BRIDGE PORT1 PORT2 PORT3 PORT4
