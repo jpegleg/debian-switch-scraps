@@ -1,0 +1,6 @@
+auto ABR
+iface ABR inet static
+  bridge_ports PORT1 PORT2 PORT3 PORT4
+  address BRIDGEADDRESS
+  broadcast BRIDGEBROADCAST
+  netmask 255.255.255.0
